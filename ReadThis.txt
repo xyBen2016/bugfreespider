@@ -1,0 +1,10 @@
+【BugFreeBug.py】：自定义的一个bugfree类，用于存放抓取到的bug信息，每一个BugFreeBug的实例就是一条记录信息
+【GlobalConfig.py】：配置文件，用于配置项目账号、路径、筛选条件以及Excel读写路径
+【PickleUtils.py】：实现保存、读取临时数据
+【XlwingsUtils.py】：实现对Excel的读写操作
+【BugFreeSpider.py】：用于抓取数据并生成Excel文件
+
+抓取时，请直接运行grapbugfree.bat
+在桌面创建好相应的文件夹，得到的数据保存在pkl文件中，这些数据可以用各种方法导入缺陷信息表中（如xlwings），由于缺陷信息
+表每个公司都有不同的样式，可以根据具体情况录入数据。这里只将爬取到的数据保存下来。
+首先在桌面创建文件夹避免报错【"C:/Users/Administrator/Desktop/grapbugfree/bugdata.pkl"】，再将代码复制到这个文件夹中
